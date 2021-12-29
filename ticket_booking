@@ -10,8 +10,10 @@
     <form action=''>
     <div><input type="text" placeholder="Enter boarding location"></div>
     <div><input type="text" placeholder="Enter your destination"></div>
-    <div><input type='submit'></div>
+    <span><div><input type='submit'></div>
+    <button>Reset info</button>
     <button class='random_button'>Select Random Information</button>
+    </span>
     </form>
 </body>
 </html>
