@@ -11,9 +11,8 @@
     <div><input type="text" placeholder="Enter boarding location"></div>
     <div><input type="text" placeholder="Enter your destination"></div>
     <span><div><input type='submit'></div>
-    <button>Reset info</button>
+    <button>Reset info</button></span>
     <button class='random_button'>Select Random Information</button>
-    </span>
     </form>
 </body>
 </html>
