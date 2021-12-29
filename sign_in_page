@@ -9,8 +9,8 @@
 <body>
       <form action="">
     <div class='sign_in'> <input type="text" placeholder="Enter your First Name"></div>
-    <div class='sign_in><input type="email" placeholder="Enter your E-mail_ID"></div>
-    <div class='sign_in><input type="password" placeholder="Enter password"></div>
+    <div class='sign_in'><input type="email" placeholder="Enter your E-mail_ID"></div>
+    <div class='sign_in'><input type="password" placeholder="Enter password"></div>
     <input type='submit'>
     </form>
 
