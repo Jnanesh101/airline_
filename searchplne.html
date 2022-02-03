@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+  
+  
+  <form action='select_plane1.php'method="post"  >
+    <label for="date">Enter the travel date between 2022-02-03 and 2022-02-04</label>
+  <input type="date" name='date' max="04-02-2022" min="04--02-2022"></input>
+
+  <label for="pickp">Choose the dest :</label>
+  <select name="pickp" id="">
+  <option value="" selected disabled hidden>Pick up Des</option>
+    <option value="Banglore">Banglore</option>
+    
+    <option value="Mysore">Mysore</option>
+    
+    <option value="Delhi">Delhi</option>
+    
+    <option value="Mumbai">Mumbai</option>
+    
+    <option value="Assam">Assam</option>
+  </select>
+<div>
+  <label for="cars">Where do you want to go:</label>
+  <select name="desti" id="desti">
+  <option value="" selected disabled hidden>Choose here</option>
+  <option value="Banglore">Banglore</option>
+  <option value="Mysore">Mysore</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Assam">Assam</option>
+  </select>
+</div>  
+
+<input type="submit">
+</form>
+  </body>
+</html>
